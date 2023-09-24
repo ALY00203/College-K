@@ -1,0 +1,914 @@
+
+/* from 0 - 767  */
+@media (max-width: 767px){
+.uppernav{
+    display: none;
+}
+.blog-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-title{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.navigation{
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 50px;
+    /* border: 2px solid red; */
+}
+.nav{
+    width:95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    /* border: 2px solid rgb(0, 255, 200); */
+
+}
+.uni-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    /* border: 2px solid red; */
+}
+.uni-title  p {
+    font-size: 24px;
+    width: 80%;
+    padding: 0%;
+}
+.card-container-blog{
+    display: none;
+}
+.blog-about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.blog-about  p {
+    width: 100%;
+
+}
+.footer {
+    width: 100%;
+    height: auto;
+
+}
+.footermain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+
+}
+/* ----------------------------------------------- */
+.univerisity-life{
+    height: 650px;
+}
+.tradition-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Event-and-Traditions{
+    width: 100%;
+}
+.transportaions{
+    width: 100%;
+}
+.cards-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-00{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(0, 255, 136); */
+}
+.ex-container{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+.Experience{
+    height: auto;
+}
+.goal-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.goal-pic,.goal-pa{
+    width: 100%;
+    padding: 15px;
+
+}
+/* ----------------------------------------------- */
+.athletics{
+    height: auto;
+}
+.faraway{
+    width: 100%;
+}
+.faraway-container{
+    width: 90%;
+
+}
+.europa{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.ku-team{
+    width: 100%;
+}
+.team-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.long-story,.Participate{
+    width: 90%;
+
+}
+.ath-phara{
+    width: 90%;
+
+}
+/* ----------------------------------------------------------- */
+.courses{
+    height: auto;
+}
+/* --------------------------------------------------------------- */
+.history-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.history-1,.philo{
+    width: 100%;
+    height: auto;
+}
+.history-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.philo-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.spicial{
+    width: 100%;
+    height: 300px;
+    /* display: flex; */
+    /* gap: 1px; */
+    /* flex-direction: column;  */
+}
+.spicial-1,.spicial-2,.spicial-3{
+    width: 100%;
+    display: none;
+}
+.spicial-parent{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+/* ---------------------------------------------------- */
+.admission-main{
+    height: auto;
+}
+.card-container-00{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bg-st-apply{
+    height: auto;
+}
+.content-wrapper{
+    width: 100%;
+
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-section   p{
+    width: 90%;
+}
+.content-section   {
+    width: 100%;
+}
+.admission-europ{
+    width: 100%;
+}
+.adm-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    font-size: smaller;
+}
+.ada-title,.ada-phara {
+    width: 100%;
+}
+.apply-to{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------------------------- */
+.academics{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500PX;
+}
+.acadimics-title{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: center;
+text-align: center;
+height: auto;
+}
+.aca-phara,.aca-title{
+width: 90%;
+font-size: 26px;
+height: auto;
+}
+.Outstanding-Academics{
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+.experiencee-pa{
+width: 80%;
+display: flex;
+flex-direction: column;
+align-self: center;
+/* border: 2px solid red ; */
+}
+.Outstanding {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.card-blue-parent{
+display: flex;
+flex-direction: column;
+}
+.card-blue {
+width:98% ;
+height: 400px;
+}
+.Department-Contact-Info{
+width:500px;
+display: flex;
+align-self: center;
+margin-top: 20px;
+}
+.here{
+width: 100%;
+}
+.Why-Choose-Kingster{
+width: 90%;
+}
+.choose-img{
+display: none;
+}
+.study-container{
+width: 90%;
+/* border: 2px solid red; */
+text-align: start;
+display: flex;
+align-items: flex-start;
+justify-content: start;
+height: auto;
+}
+.major{
+display: flex;
+flex-direction: column;
+}
+.plp{
+height: auto;
+}
+.Department-Contact-Info{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.card-info{
+width: 100%;
+}
+.plp-img{
+display: none;
+}
+.plp,.plp-para{
+width: 100%;
+margin-bottom: 5px;
+}
+.plp-para  p{
+width: 100%;
+padding: 10px;
+}
+.learn-more{
+    height: auto;
+   }
+   .CURRICULUM-AND-ACADEMIC{
+    width: 100%;
+    /* border: 5px solid orange; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    display: block;
+   }
+   .section-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+   }
+   .section-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+   }
+   .section-1  img{
+    width: 100%;    
+   }
+   .section-2  img{
+    width: 100%;    
+   }
+   .section-3  img{
+    width: 100%;    
+   }
+   .section-4  img{
+    width: 100%;    
+   }
+   .section-3,.section-4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* border: 2px solid red; */
+   }
+   .address-3 {
+    width: 70%;
+   }
+   .subscribe-container{
+    width: 100%;
+   }
+   .LANGUAGE-ADVISORY{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(68, 9, 206); */
+    height: auto;
+   }
+   .happy{
+display: none;
+   }
+   .admission{
+    height: auto;
+   }
+   .address-3{
+    margin-left: 50px;
+   }
+   .THE-KINGSTER-CURRICULUM{
+    display: flex;
+    flex-direction: column;
+   }
+   .CURRICULUM-1,.CURRICULUM-one{
+    width: 100%;
+   }
+   .achieves{
+    display: none;
+   }
+   .instractors{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .slider-2{
+    display: none;
+   }
+   .main{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+    /* border: 2px solid blue; */
+   }
+   .container{
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    align-self: flex-start;
+    /* border: 2px solid rgb(9, 255, 0); */
+   }
+   .events{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+    /* border: 3px solid red; */
+   }
+   .colleges{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+   .form {
+    width: 80%;
+    margin-bottom: 50px;
+   }
+   .form-container{
+    width: 100%;
+   }
+   .form-line{
+    width: 100%;
+   }
+   .form-input{
+    width: 100%;
+    /* margin-left: 10px; */
+   }
+   .search-courses {
+    display: none;
+   }
+   .subscribe{
+    width: 100%;
+    height: 500px;
+   }
+   .welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   }
+   .address,.contact{
+    width: 100%;
+    font-size: 40px;
+   }
+   body {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    overflow-x: hidden;
+}
+.subscribe-input{
+    width: 60%;
+}
+
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .uppernav{
+        display: none;
+    }
+    .blog-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation{
+        width: 80%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-left: 50px;
+        /* border: 2px solid red; */
+    }
+    .nav{
+        width:95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        /* border: 2px solid rgb(0, 255, 200); */
+    
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footermain{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* ---------------------------------------- */
+    .univerisity-life{
+        height: 650px;
+    }
+    .cards-main{
+        width: 100%;
+    }
+    .card-container{
+        width: 100%;
+        display: flex;
+        flex-wrap:unset 100px;
+        height: auto;
+        padding: 10px;
+    }
+    .athletics{
+        width: 100%;
+        height: auto;
+    }
+    .faraway{
+        width: 100%;
+    }
+    .faraway-container{
+        width: 90%;
+    }
+    .europa{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+    .ku-team{
+        width: 100%;
+    }
+    .team-main{
+        width: 90%;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footermain{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    /* ----------------------------------------------------- */
+    .courses{
+        height: auto;
+    }
+    /* ----------------------------------------------------- */
+    .history-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .history-1,.philo{
+        width: 100%;
+        height: auto;
+    }
+    .history-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .philo-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .spicial{
+        width: 100%;
+        height: 300px;
+        /* display: flex; */
+        /* gap: 1px; */
+        /* flex-direction: column;  */
+    }
+    .spicial-1,.spicial-2,.spicial-3{
+        width: 100%;
+        display: none;
+    }
+    .spicial-parent{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .p1,.p2{
+        width: 100%;
+    }
+    .admission-main{
+        height: auto;
+    }
+    .card-container-00{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bg-st-apply{
+        height: auto;
+    }
+    .apply-to{
+        width: 100%;
+    }
+    .content-wrapper,.flex-container{
+        width: 100%;
+    }
+    .europa{
+        height: auto;
+    }
+    .content-wrapper,.flex-container{
+        width: 100%;
+    }
+    .content-section {
+        width: 50%;
+    }
+    .content-section  p {
+        width: 100%;
+    }
+    .academics{
+        height: 850px;
+       }
+    .Outstanding-Academics{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Outstanding{
+        width: 100%;
+    }
+    .major{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Department-Contact-Info{
+        align-self: center;
+        width: auto;
+    }
+    .card-blue-parent{
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Why-Choose-Kingster{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-img{
+        width: 100%;
+    }
+    .welcome{
+        height: auto;
+    }
+    .CURRICULUM-AND-ACADEMIC{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+       }
+       .section-1  img{
+        width: 100%;    
+       }
+       .section-2  img{
+        width: 100%;    
+       }
+       .section-3  img{
+        width: 100%;    
+       }
+       .section-4  img{
+        width: 100%;    
+       }
+       .section-1,.section-2,.section-3,.section-4{
+        width: 100%;
+       }
+       .address-3 {
+        width: 70%;
+       }
+       .LANGUAGE-ADVISORY{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+       }
+       .happy{
+        height: auto;
+        margin-top: 30px;
+       }
+       .achieves{
+      height: auto;
+       }
+       .THE-KINGSTER-CURRICULUM{
+        display: flex;
+        flex-direction: column;
+       }
+       .CURRICULUM-1,.CURRICULUM-one{
+        width: 100%;
+
+       }
+    
+       .search{
+        margin-bottom: 20px;
+       }
+    
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .univerisity-life{
+        height: 650px;
+    }
+    .europa{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+    .faraway{
+        width: 100%;
+    }
+    .faraway-container{
+    width: 90%;    
+    }
+    .ku-team{
+        width: 100%;
+    }
+    .team-main{
+        width: 90%;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footermain{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .p1,.p2{
+        width: 90%;
+    }
+    .admission-main{
+        height: auto;
+    }
+    .card-container-00{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bg-st-apply{
+        width: 100%;
+        height: auto;
+        
+    }
+    .content-wrapper,.flex-container{
+        width: 100%;
+    }
+    .europa{
+        height: auto;
+    }
+    .content-wrapper,.flex-container{
+        width: 100%;
+    }
+    .content-section {
+        width: 50%;
+    }
+    .content-section  p {
+        width: 100%;
+    }
+    .CURRICULUM-AND-ACADEMIC {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        /* border: 5px solid red; */
+    }
+    .LANGUAGE-ADVISORY{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        gap: 10px;
+        width: 100%;
+        /* border: 5px solid black; */
+
+    }
+    .section-1,.section-2,.section-3,.section-4{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Outstanding-Academics{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Outstanding{
+        width: 100%;
+    }
+    .card-blue-parent{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Department-Contact-Info{
+        display: flex;
+        align-self: center;
+        width: 500px;
+    }
+    .academics{
+        width: 100%;
+        height: 800px;
+    }
+    .welcome{
+        height: auto;
+    }
+    .learn-more{
+        height: auto;
+    }
+    .achieves{
+        height: auto;
+
+    }
+
+
+
+}
+
+@media (min-width:1200px)  {
+    .univerisity-life{
+        height: 650px;
+    } 
+    .admission-main{
+        height: auto;
+    }
+    .welcome{
+        height: auto;
+
+    }
+
+}
+
+
+
+
+
+
+
+

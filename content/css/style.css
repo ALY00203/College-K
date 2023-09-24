@@ -1,0 +1,2202 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration:none ;
+    color: aliceblue;
+   transition: all .5s;
+
+}
+
+/* start uppernav */
+.uppernav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+padding: 20px 60px 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #17082d;
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+}
+.login ul  {
+width: 50%;
+display: flex;
+gap: 20px;
+color: aliceblue;
+}
+.login ul a:hover{
+color: rgb(160, 160, 160);
+transition-duration: .0.5s;
+
+}
+.info {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.info  p {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    color: rgb(141, 215, 229);
+}
+.info ul  {
+    display: flex;
+    justify-content:flex-end;
+    width: 50%;
+    gap: 30px;
+    color: aliceblue;
+}
+
+.info ul  a:hover {
+color: rgb(141, 215, 229);
+transition-duration: .0.5s;
+}
+/* end uppernav */
+/* start section welcome with nav */
+.welcome {
+    background-image: url(../assests/images/slider-1.jpg);
+    background-repeat: no-repeat;
+    background: size 150%;
+    background-position: center top -40px;
+    width: 100%;
+    height: 130vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 25px;
+    padding: 20px 5px 30px 5px;
+    font-size:medium;
+    font-family: 'Jost', sans-serif;
+}
+.nav li a:hover {
+color: rgb(141, 215, 229);
+transition-duration: .0.5s;
+}
+.nav  img {
+    width: 100px;
+}
+.active {
+    color: rgb(141, 215, 229);
+}
+/* end nav */
+/* start welcome */
+.line {
+    display: flex;
+    width: 2px;
+    height: 100px;
+    background-color: rgb(223, 220, 220);
+}
+.line-2{
+    display: flex;
+    width: 2px;
+    height: 180px;
+    background-color: rgb(223, 220, 220);
+}
+.welcome-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+.address{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    padding: 5px;
+}
+.aim, .to{
+    font-family: 'Jost', sans-serif;
+    font-size:16px ;
+    padding: 1%;
+    font-weight: 5px;
+}
+/* end welcome */
+/* end section welcome with nav */
+ /* start section learn more  */
+.learn-more{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 7% ;
+}
+.ex{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    word-spacing: 20px;
+}
+.wepha{
+    font-size: 20px;
+    word-spacing: 1px;
+    line-height: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 5px;
+    color: rgba(54, 53, 53, 0.918);
+}
+.learnmore{
+    color: rgba(54, 53, 53, 0.918);
+    font-family: 'Jost', sans-serif;
+    text-decoration: underline;
+    padding-bottom: 10%;
+    font-weight: 100px;
+}
+ /* end section learn more  */
+ /* start section CURRICULUM AND ACADEMIC  */
+.CURRICULUM-AND-ACADEMIC {
+    display: flex;
+    /* position: relative; */
+    width: 100%;
+    height: 500px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+.section-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+    
+}
+.section-2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.address-2{
+    font-size: 24px;
+    font-weight: 100;
+    padding: 10px;
+    color: rgb(102, 99, 99);
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 25px;
+}
+.address-3{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: rgb(161, 154, 154);
+    padding: 15px;    
+    line-height: 35px;
+}
+.address-4{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(161, 154, 154);
+    padding: 20px;
+}
+ /* end section CURRICULUM AND ACADEMIC  */
+ /* start section LANGUAGE-ADVISORY  */
+.LANGUAGE-ADVISORY{
+    display: flex;
+    width: 100%;
+    /* height: 750px; */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: 0px, 10px, 0px,10px;
+}
+.section-3,.section-4{
+    width: 49%;
+    padding: 10px;
+}
+/* end section LANGUAGE-ADVISORY  */
+/* start section happy */
+.happy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-image: url(../assests/images/university.jpg);
+    background-size: 150% ;
+    background-repeat: no-repeat; 
+    background-position: top;
+}
+.admission{
+    width: 55%;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+.contact{
+    width: 70%;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.btn-contact{
+   background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Jost', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   height: 4rem;
+   padding: 0 1.6rem;
+   text-align: center;
+   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+   transition: all .5s;
+   text-transform:capitalize ;
+}
+.btn-contact:hover {
+border: 1px solid  #FFFFFF;
+transition-duration: .0.5s;
+ }
+ /* end section happy */
+ /* start section THE-KINGSTER-CURRICULUM  */
+.THE-KINGSTER-CURRICULUM {
+    display: flex;
+    width: 100%;
+    padding-top: 5%;
+}
+.CURRICULUM-1{
+    display: flex; 
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 30px;
+}
+.line-3{
+    display: flex;
+    position: absolute;
+    width: 2px;
+    height: 110px;
+    background-color: rgb(223, 220, 220);
+    left: 60px;
+    top: 0px;
+    padding-bottom: 40px;
+}
+.CURRICULUM-2{
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: rgb(161, 154, 154);
+    padding: 10px;    
+    line-height: 35px;
+}
+.CURRICULUM-3{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    padding: 10px;    
+    padding-bottom: 40px;
+}
+.CURRICULUM-4{
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: rgb(46, 44, 44);
+    line-height: 30px;
+    padding: 10px;    
+    text-align: justify;
+}
+.CURRICULUM-one{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classroom{
+    width: 100%;
+    padding: 15px;
+}
+ /* end section THE-KINGSTER-CURRICULUM  */
+ /* start section achieves  */
+
+ .achieves{
+    display: flex;
+    gap: 13%;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-image: url(../assests/images/group-student.jpg);
+    background-size: 150% ;
+    background-repeat: no-repeat; 
+    background-position: top;
+ }
+
+.trophy{
+display: flex;
+gap: 20px;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.trophy img {
+    width: 70px;
+}
+.trophy-section{
+    text-transform: uppercase;
+    color: rgb(141, 215, 229);
+}
+.numberr{
+font-size: 40px;
+}
+ /* end section achieves  */
+ /* start section INSTRUCTOR  */
+ .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+ }
+ .intro  p {
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: rgb(161, 154, 154);
+    padding: 10px;    
+    line-height: 35px;
+ }
+ .intro h1 {
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    padding: 10px;    
+    padding-bottom: 40px;
+ }
+ .line-5{
+    width: 2px;
+    height: 100px;
+    background-color: rgb(223, 220, 220);
+ }
+.instractors{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.instractors   img {
+    width: 100%;
+}
+.ins {
+    padding: 7px;
+    font-family: 'Playfair Display', serif;
+    color: #1e1d1f;
+    font-size: 18px;
+    font-weight: 100;
+}
+.ins  h2{
+  margin-top: 5px;
+  width: 100%;
+}
+.ins  p {
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: rgb(161, 154, 154);
+    /* margin-top: 5px; */
+}
+/* end section INSTRUCTOR  */
+/* start section slider-2 */
+.slider-2{
+    background-image:url(../assests/images/Post01.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+}
+.Spart-one{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(161, 154, 154);
+}
+.visit{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.visit  a {
+    color: #1e1d1f;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+}
+.Spart-one  h1{
+    color:#1e1d1f ;
+    font-weight: 300;
+    font-size: 44px;
+}
+.line-6{
+    display: flex;
+    position: absolute;
+    width: 2px;
+    height: 110px;
+    background-color: rgb(223, 220, 220);
+    left: 60px;
+    top: 0px;
+    padding-bottom: 40px;
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  .card {
+    flex: 0 0 45%; 
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .card  img {
+    width: 100%;
+  }
+  .infonumbertwo{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+  }
+  .card  p{
+    width: 100%;
+  font-size: 24px;
+  color: #1e1d1f;
+  font-family: 'Playfair Display', serif;
+  padding: 15px;
+  }
+  .card a {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+  }
+/* end section slider-2 */
+  /* start section UPCOMING EVENTS  */
+  .main{
+    width: 100%;
+    background-image: url(../assests/images/Blog01.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+  }
+  .main  h1 {
+    font-family: 'Playfair Display', serif;
+  }
+  .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  }
+  .events {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .events  img {
+    width: 100%;
+  }
+  .cardone   {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+  }
+.atag {
+    text-decoration: none;
+    color: #17082d;
+}
+.cardtwo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+}
+.cardthree{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+}
+  /* end section UPCOMING EVENTS  */
+/* <!-- start section colleges --> */
+.colleges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.colleges  img {
+    width: 20%;
+}
+/* <!-- end section colleges --> */
+/* <!-- start section search --> */
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.woman{
+    width: 40%;
+}
+.woman  img {
+    width: 100%;
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.form-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 19px;
+    cursor: pointer;
+  }
+  .form-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+ .form-line{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+ }
+ .form-input{
+    padding: 17px;
+    border-radius: 5px;
+    background-color:rgb(218, 218, 218);
+    border: none;
+ }
+.btn-btn{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+}
+.search-courses{
+    font-size:40px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+/* <!-- end section search --> */
+/* <!-- start section SUBSCRIBE  --> */
+.subscribe{
+    background-image: url(../assests/images/BG-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.secound {
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.subscribe-container {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    margin: 59px;
+  }
+
+  .subscribe-input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .subscribe-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+/* <!-- end section SUBSCRIBE  --> */
+/* footer start */
+.footer{
+    height: 550px;
+    background-color: #17082d;
+}
+.footermain{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;
+gap: 30px;
+height: 100%;
+}
+.footer-one  img{
+    width: 60%;
+}
+.footer-one{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 400px;
+}
+.textt{
+    width: 250px;
+    text-align: center;
+    /* border: 3px solid white; */
+}
+.blue{
+    color: #88b9ee;
+}
+.footer-one ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.footer-one ul  a:hover {
+color: #459af5;
+}
+.icons {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 40px;
+    background-color: #17082d;
+height: 50px;
+}
+.icons:hover{
+color: #459af5;
+}
+/* footer end */
+/* -----------------------------------------------pageabout */
+.about-main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../assests/images-about/about-title-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -30px;
+  }
+  .about-main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent); /* Adjust the alpha value for darkness */
+    z-index: -1;
+  }
+  
+  .about-main {
+    opacity: 1; /* Set the opacity to 1 for the image */
+  }
+  .nav-img{
+    color: #FFFFFF;
+  }
+/* end of section 1  */
+/* start Kingster’s History */
+.history-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.history-1{
+    width: 80%;
+    display: flex;
+    justify-content:flex-start;
+    text-decoration: underline;
+    font-weight: 500;
+    padding: 30px;
+}
+.history-1  p {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.history-2{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+}
+.history-2   p {
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Jost', sans-serif;
+}
+/* end Kingster’s History */
+/* <!-- start Our Philosophy --> */
+.philo{
+    margin-top: 20px;
+    background-image: url(../assests/images-about/coming-soon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.philo-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.philo-1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.philo-1  h2 {
+    color: #1ecf59;
+}
+.philo-1  p {
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    line-height: 40px;
+}
+/* <!-- end Our Philosophy --> */
+/* <!-- start Special  --> */
+.spicial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.spicial-parent{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .spicial-1 {
+    /* position: relative; */
+    background-image: url(../assests/images-about/nathan-dumlao-572047-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 50%;
+    height: 100%; 
+  }
+  .spi-main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .spi-main   img {
+    width: 80px;
+    height: 80px;
+  }
+.p1{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.p2{
+    color: rgb(13, 13, 14);
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    line-height: 30px; 
+    width: 600px;
+}
+.spicial-2 {
+    background-image: url(../assests/images-about/shutterstock_400221589.jpg);
+    background-size: 80%; /* Adjust the value for more zoom out */
+    background-repeat: no-repeat;
+    background-position: left -140px bottom -170px;
+    background-attachment: fixed;
+    width: 50%;
+    height: 100%;
+  }
+.spicial-3 {
+    background-image: url(../assests/images-about/shutterstock_547272460.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right -120px bottom -170px ;
+    background-attachment: fixed;
+    width: 50%;
+    height: 100%; 
+}
+/* <!-- end Special  --> */
+/* <!-- start europa express  --> */
+.europa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #2c3328;
+}
+/* <!-- end europa express   --> */
+/* --------------------------------------------end---pageabout */
+/* PAGE UNIVERISITY LIFE start --------------------------------- */
+.univerisity-life {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assests/images-univieristylife/life-title-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -40px;
+    width: 100%;
+    height: 100vh;
+  }
+.uni-title{
+    width: 100%;
+    /* border: 2px solid green; */
+    height: 410px;
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    align-items: end;
+}
+.life-title{
+    color: aliceblue;
+    font-size: 55px;
+    font-weight:bolder;
+    text-decoration: underline rgb(54, 179, 184);
+    width: 30%;
+    padding-bottom: 100px;
+}
+.life-phara{
+    width: 50%;
+    color: aliceblue;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+}
+/* <!-- Event start Traditions start --> */
+.tradition-container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.Event-and-Traditions{
+    width: 55%;
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Jost', sans-serif;
+    justify-content: center;
+    padding: 10px;
+}
+.transportaions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+.line-7{
+    height: 5px;
+    width: 100%;
+    background-color: #085cc9;
+}
+.img-title{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    font-family: 'Jost', sans-serif;
+}
+.many-options{
+    text-align: justify;
+    font-weight:bold ;
+}
+.trans-pha{
+    width: 90%;
+}
+.flip-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flip-card {
+    width: 600px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #085cc9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flip-card-back {
+    background-color: #085cc9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+  }
+  .event-pha{
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    width: 95%;
+    padding: 10px;
+  }
+ .po {
+    font-weight: bold;
+  }
+.card-front{
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    color: ivory;
+    padding: 15px;
+}
+/* <!-- Event and Traditions end --> */
+/* <!-- The Campus Experience start --> */
+.Experience{
+    width: 100%;
+    height: 350px;
+    background-image: url(../assests/images-univieristylife/life-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ex-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    /* border: 2px solid green; */
+}
+.ex-container   h1{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    width: 40%;
+}
+.ex-para{
+    width: 70%;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+/* <!-- The Campus Experience end --> */
+/* <!-- start Dining On Campus --> */
+.card-container {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+    margin-top: 30px;
+  }
+  .cards-main{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  .card-00 {
+    flex: 1;
+    /* max-width: 30%; Adjust as needed */
+    text-align: start;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  }
+  
+  .card-00 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-00 h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card-00 p {
+    padding: 10px;
+    text-align: start;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .read-more {
+    background-color: transparent ;
+    color:#007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  /* <!-- end Dining On Campus --> */
+  /* <!-- Our goal start --> */
+.goal-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.goal-pic{
+    width: 50%;
+    background-image: url(../assests/images-univieristylife/shutterstock_780740548.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.goal-pic  img {
+    width: 100%;
+}
+.goal-pa {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal-contain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:flex-start;
+    align-items: start;
+    font-size: 30px;
+    width: 80%;
+    /* border: 2px solid green; */
+}
+.i{
+    font-size: 60px;
+    color: #007bff;
+}
+.goal-contain  p {
+    text-align: start;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+  /* <!-- Our goal end --> */
+/* PAGE UNIVERISITY LIFE end  */
+/* start page academics----------------------------------------- */
+/* start acadimics */
+.academics{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assests/academics-imgs/shutterstock_59887279.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -40px;
+    width: 100%;
+    height: 750px;
+}
+.acadimics-title{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: start;
+    padding: 10px;
+    justify-content: end;
+}
+.aca-title{
+    color: #3677bd;
+    text-decoration: underline;
+    font-family: 'Jost', sans-serif;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.aca-phara{
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    width: 800px;
+}
+/* end acadimics */
+/* start outstanding  */
+.Outstanding-Academics{
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 30px;
+margin-bottom: 10%;
+}
+.Outstanding{
+    width: 70%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.experiencee-pa{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Jost', sans-serif;
+    line-height: 30px;
+
+}
+.major{
+    display: flex;
+    margin-top: 10px ;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+}
+.m-h1{
+width: 10%;
+font-family: 'Jost', sans-serif;
+
+}
+.line-9{
+    width: 90%;
+    height: 2px;
+    background-color: #7e7e7e;
+}
+
+.card-blue-parent{
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+}
+
+.card-blue {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card-blue img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .card-blue:hover .overlay {
+    opacity: 1;
+  }
+  .category {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+.if-you{
+    width: 90%;
+    font-family: 'Jost', sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.line-10{
+    width: 90%;
+    height: 4px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.Provided{
+    width: 90%;
+    font-family: 'Jost', sans-serif;
+    line-height: 30px;
+    font-weight: 500;
+}
+.banking{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.banking  p {
+    font-size: larger;
+    font-family: 'Jost', sans-serif;
+}
+.Department-Contact-Info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 650px;
+    background-color: #f0f0f0;
+    width: 30%;
+  }
+  .card-info {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(38, 24, 77);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+  }
+  .department-title {
+    font-size: 30px;
+    color:whitesmoke;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .of{
+    color:#4d8ed3;
+  }
+  .address-info {
+    /* margin-bottom: 5px; */
+    color:whitesmoke;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Jost', sans-serif;
+  }
+  .address-info  p {
+    width: 300px;
+  }
+  .social-icons {
+    font-size: 30px;
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    padding: 10px;
+   margin-bottom: 40px;
+  }
+  .social-icons i {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .button-container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .resources-button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+/* end outstanding  */
+/* <!-- kingister tap start --> */
+.Why-Choose-Kingster{
+width: 100%;
+/* border: 2px solid red ; */
+display: flex;
+justify-content:center ;
+gap: 50px;
+}
+.choose-img{
+    width: 70%;
+}
+.choose-img  img {
+    width: 100%;
+}
+.choose-para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+/* <!-- kingister tap end --> */
+/* <!-- study here start --> */
+.study-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.here{
+    width: 80%;
+    /* border: 4px solid red; */
+   display: flex;
+   flex-direction: column;
+   font-family: 'Jost', sans-serif;
+   gap: 30px;
+   font-size: 20px;
+   line-height: 35px;
+}
+/* <!-- study here end --> */
+/* <!-- startThe PLP --> */
+.plp {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(56, 85, 99);
+    margin-top: 150px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.plp-img{
+    position: absolute;
+    top: -90px;
+    right: 40px;
+    width: 40%;
+}
+.plp-img  img {
+    width: 100%;
+}
+.plp-para{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.plp-para  p {
+    width: 50%;
+    color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+}
+.plp-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .plp-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .plp-btn:hover {
+    background-color: #0056b3;
+  }
+/* <!-- endThe PLP --> */
+/* end page academics----------------------------------------- */
+/* start page athletics----------------------------------------- */
+/* startathletics */
+.athletics{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assests/images-atheletics/page-title-athletics.jpg);
+    background-repeat: no-repeat;
+    background-size:contain cover;
+    background-position:center;
+    width: 100%;
+    height: 750px;
+    margin-bottom: 30px;
+}
+.athletics-title{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: start;
+    padding: 10px;
+    justify-content: end;
+}
+.ath-title{
+
+    color: #3677bd;
+    text-decoration: underline;
+    font-family: 'Jost', sans-serif;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.ath-phara{
+
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    width: 800px;
+}
+/* endathletics */
+/* <!-- start section far away  --> */
+.faraway{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center ;
+margin-bottom: 70px;
+}
+.faraway-container{
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: flex-start ;
+justify-content: center;
+gap: 30px;
+}
+.line-11{
+    width: 30%;
+    height: 4px;
+    background-color: #3d74da;
+}
+.p-blue{
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color: #0056b3;
+}
+.p-black{
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color: #17082d;
+}
+/* <!-- end section far away  --> */
+/* <!-- start section john  --> */
+.John-Smith-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29282817;
+    /* border: 3px solid red; */
+}
+.John-Smith-pic{
+    width: 50%;
+    background-image: url(../assests/images-atheletics/shutterstock_167044400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.John-Smith-pic  img {
+    width: 100%;
+}
+.John-Smith-pa {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.John-Smith-contain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:flex-start;
+    align-items: start;
+    font-size: 30px;
+    width: 80%;
+    /* border: 2px solid green; */
+}
+.i-John-Smith{
+    font-size: 60px;
+    color: #007bff;
+}
+.John-Smith-contain  p {
+    text-align: start;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+/* <!-- end section john  --> */
+/* <!-- start KU Team --> */
+.ku-team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team-main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.long-story{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Participate{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    /* border: 3px solid green; */
+}
+
+.line-12{
+    width: 90%;
+    height: 4px;
+    background-color:#007bff;
+
+}
+.par-p{
+    text-align: start;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    /* font-weight: bold; */
+}
+.par-h1{
+    font-family: 'Jost', sans-serif;
+}
+.ath-btn{
+    background-color: #4285f4; /* Google Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    display: flex;
+    align-self: center;
+}
+.ath-btn:hover {
+    background-color: #357ae8; /* Darker Google Blue */
+}
+/* <!-- end KU Team --> */
+/* end page athletics----------------------------------------- */
+/* start page courses----------------------------------------- */
+.courses{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assests/courses-img/page-title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -40px;
+    width: 100%;
+    height: 350px;
+}
+.courses-title{
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  font-family: 'Jost', sans-serif;
+  /* border: 3px solid red; */
+}
+.course-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    padding-left: 60px;
+    text-decoration: underline;
+    font-family: 'Jost', sans-serif;
+}
+.course-phara{
+    font-size: 54px;
+    padding-left: 60px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+.course {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Jost', sans-serif;
+  }
+  .course-title-2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: 'Jost', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #eeeeee;
+
+}
+  .code-course {
+    color: #007bff;
+    font-weight: bold;
+  }
+  .course-details {
+    list-style-type: none;
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .course-details li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .more-detail {
+    color: #4285f4;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .more-detail:hover {
+    text-decoration: underline;
+  }
+    .course-details li strong {
+    color: #333;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .course-details li strong::after {
+    content: ":";
+  }
+  
+  .course-details li.level strong::after {
+    content: ""; /* Remove colon for level */
+  }
+  
+  .course-details li.level {
+    font-weight: bold;
+    color: #4285f4;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .course-details li.level::before {
+    content: "Level: ";
+    font-family: 'Jost', sans-serif;
+  }
+    .course-details li.method {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .course-details li.method::before {
+    content: "Method: ";
+  }
+  
+  .course-details li.method span {
+    font-weight: normal;
+    color: #777;
+  }
+  .more-detail-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Jost', sans-serif;
+  }
+  .more-detail-button:hover {
+    background-color: #357ae8;
+  }
+
+/* end page courses----------------------------------------- */
+/* start page admission------------------------------------- */
+.admission-main {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), 
+        url(../assests/admission-images/scholarships-title-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+}
+.adm-title{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    align-items: end;
+}
+
+.ada-title{
+    color: aliceblue;
+    font-size: 55px;
+    font-weight:bolder;
+    text-decoration: underline rgb(54, 179, 184);
+    width: 40%;
+    padding-bottom: 10px;
+}
+.ada-phara{
+    width: 50%;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+/* <!-- Scholarships Sources start --> */
+.admission-00{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.header-00 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: start;
+    background-color: #f7f7f7;
+    padding: 10px;
+  }
+  
+  .header-00 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .header-00-title {
+    font-size: 34px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .card-container-00 {
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .card-12 {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 7px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* text-align: center; Center the content inside the cards */
+  }
+  
+  .card-title-00 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    color: #0056b3;
+  }
+  
+  .card-paragraph-44 {
+    color: #555;
+    margin-bottom: 15px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+  }
+  
+  .read-more-button {
+    background-color: transparent;
+    color:#0056b3;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: #357ae8;
+    color: whitesmoke;
+  }
+  /* <!-- Scholarships Sources end --> */
+  /* <!-- apply to kingster start --> */
+
+  .bg-st-apply {
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), /* Overlay */
+      url(../assests/admission-images/page-title-apply.jpg); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+  }
+  
+  .apply-to{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: whitesmoke;
+    text-decoration: underline #357ae8;
+    font-weight: bolder;
+    height: 800px;
+
+}
+  /* <!-- apply to kingster end --> */
+
+  .content-wrapper {
+    width: 80%;
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 40px;
+  }
+  
+  .content-title {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content-section {
+    flex: 1;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Jost', sans-serif;
+
+  }
+  
+  .content-section p {
+    color: #555;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Jost', sans-serif;
+
+  }
+
+.admission-europ{
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    gap: 15px;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+.admission-europ  img {
+    width: 40px;
+}
+/* end page admission---------------------------------------- */
+/* start page blog---------------------------------------- */
+
+
+.card-container-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .card-blog {
+    flex: 0 0 calc(50% - 20px);
+    height: 400px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content-blog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-blog:hover .card-content-blog {
+    opacity: 1;
+  }
+  
+  .card-title-blog {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-paragraph-blog {
+    font-size: 14px;
+  }
+  
+  .card-content-blog h1, .card-content-blog p {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+  }
+  
+
+  .one-1{
+    background-image: url(../assests/blog-images/students-on-steps-2.jpg);
+    background-size: 700px ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .two-2{
+    background-image: url(../assests/blog-images/czech_University_Students.jpg);
+    background-size: 800px ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .three-3{
+    background-image: url(../assests/blog-images/student-in-lab.jpg);
+    background-size: 800px ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .four-4{
+    background-image: url(../assests/blog-images/graduation-edited.jpg);
+    background-size: 800px ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+.blog-main{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), 
+    url(../assests/blog-images/Foundation-Students-BG-1920x600.png);
+background-size: cover;
+background-position: center top;
+width: 100%;
+height: 400px;
+}
+.blog-title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 40px;
+    justify-content:start;
+    align-items: end;
+}
+.blogg-title{
+    color: aliceblue;
+    font-size: 55px;
+    font-weight:bolder;
+    text-decoration: underline rgb(54, 179, 184);
+    width: 40%;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.blog-about{
+    background-color: #f0f0f0;
+    padding: 30px;
+    font-family: 'Jost', sans-serif;
+    line-height: 35px;
+    font-size: large;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* end page blog---------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
